@@ -1,1 +1,1 @@
-https://bike-sharing-submission-yogiramadhani.streamlit.app/
+https://bikesharingyogi.streamlit.app/
