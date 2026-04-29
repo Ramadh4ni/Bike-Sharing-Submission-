@@ -1,22 +1,30 @@
-# Dicoding Collection Dashboard ✨
+# Bike Sharing Dashboard
 
 ## Setup Environment - Anaconda
+
 ```
 conda create --name main-ds python=3.9
 conda activate main-ds
 pip install -r requirements.txt
 ```
 
-## Setup Environment - Shell/Terminal
+## Setup Environment - Virtual Environment (venv)
+
 ```
-mkdir proyek_analisis_data
-cd proyek_analisis_data
-pipenv install
-pipenv shell
+python -m venv venv
+venv\Scripts\activate  
 pip install -r requirements.txt
 ```
 
-## Run steamlit app
+## Setup Environment - Shell/Terminal
+
 ```
+pip install -r requirements.txt
+```
+
+## Run Streamlit App
+
+```
+cd dashboard
 streamlit run dashboard.py
 ```
